@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    display: flex;
+}
+
+.lateral-menu {
+    background-color: #000;
+    width: 250px;
+    color: #fff;
+    height: 130vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 0;
+    justify-content: space-around;
+}
+.menu-items ul li{
+    list-style: none;
+    text-decoration: none;
+    padding: 20px;
+}
+.lateral-menu ul li{
+    margin: 15 0px;
+}
+.settings{
+    display: flex;
+    align-items: center;
+}
+.settings svg{
+    margin-right: 5px;
+}
+
+.lateral-menu ul li img{
+    margin-bottom: 10px ;
+}
+.content{
+    background-color: #f5f6fa;
+    width: 100%;
+
+}
+.card{
+    background: #ffffff;
+    box-shadow: 4px 4px 15px
+        rgba(0,0,0,0.25);
+    border-radius: 16px;
+    margin: 0 20px;
+    height: 132px;
+
+}
+.card .card-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+.card .card-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.card-header{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.card-small{
+    width: 240px;
+    display: flex;
+    align-items: center;
+}
+.card-big{
+    width: 464px;
+}
+.card-info h2{
+    font-size: 54px;
+    font-weight: bold;
+    color: #ffb433;
+}
+.card-info p{
+    font-size: 16px;
+}
+.card-info{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.card-big .card-container .card-content:first-child{
+    border-right: 1px solid #111;
+}
+
+.father-table {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Se quiser centralizar verticalmente também */
+    margin: 40px auto; /* Isso vai centralizar horizontalmente com margem acima e abaixo */
+}
+
+.table {
+    background: #ffffff;
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.25);
+    border-radius: 16px;
+    padding: 50px;
+    width: 642px;
+    text-align: center; /* Centraliza o texto dentro da tabela */
+}
+
+.table h5 {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 20px; /* Adiciona um espaço abaixo do título */
+}
+
+.table table {
+    width: 100%; /* Faz a tabela ocupar 100% da largura da div pai */
+    border-collapse: collapse; /* Combina as bordas das células */
+}
+
+.table table th, 
+.table table td {
+    padding: 10px 0; /* Adiciona um espaço ao redor do conteúdo das células */
+}
+
+.table table th {
+    border-bottom: 1px solid #5e5e5e;
+}
+
+.table table tr {
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.table table tr:last-child {
+    border-bottom: none; /* Remove a borda do último item */
+}
+
+.chart{
+    display: 
+    flex;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.25);
+    border-radius: 16px;
+    padding-right: 50px;
+    width: 400px;
+    height: 300px;
+    text-align: center; /* Centraliza o texto dentro da tabela */
+}
